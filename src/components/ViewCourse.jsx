@@ -57,6 +57,9 @@ const ViewCourse = () => {
                         <p>
                           <b>Trainer: </b>
                           {value.trainer}
+                        </p><p>
+                          <b>Created At: </b>
+                          {value.created_at}
                         </p>
                         <a href="#" className="btn btn-success">
                           View
